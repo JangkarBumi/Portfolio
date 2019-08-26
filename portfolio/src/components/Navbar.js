@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-      Navbar
-    </div>
+<navbar>
+  <a href="/mywork">Work</a>
+</navbar>
   )
 }
 
