@@ -7,6 +7,9 @@
 nav{
   height: 100px;
   background-color: tomato;
+  position: fixed;
+  width: 100%;
+  top:0;
 }
 
 nav ul {
@@ -26,5 +29,27 @@ nav ul li a{
 
 #project{
   height: 40vh;
-  background-color: greenyellow;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#contact{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#story{
+  margin-top: 120px;
+  color:#fff;
+  background-color: navajowhite;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height:200px;
 }
