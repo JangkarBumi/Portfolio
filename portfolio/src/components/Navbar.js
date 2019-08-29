@@ -2,10 +2,14 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-<navbar>
-  <a href="/mywork">Work</a>
-  <a href="/contact">Contact</a>
-</navbar>
+<nav>
+  <ul>
+    <li> <a href="#projects">Recent Projects</a></li>
+    <li>  <a href="#contact">Contact Me</a></li>
+  </ul>
+ 
+
+</nav>
   )
 }
 
