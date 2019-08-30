@@ -21,6 +21,8 @@ function App() {
             description={e.description}
             color={e.color}
             img={e.img}
+            live={e.live}
+            github={e.github}
           ></Project>
         );
       })}
