@@ -5,11 +5,9 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          {' '}
           <a href="#project">Recent Projects</a>
         </li>
         <li>
-          {' '}
           <a href="#contact">Contact Me</a>
         </li>
       </ul>
