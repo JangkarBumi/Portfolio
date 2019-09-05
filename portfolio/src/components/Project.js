@@ -6,6 +6,7 @@ const Project = ({ title, description, color, img, live, github }) => {
       <h1>{title}</h1>
       <p>{description}</p>
       <img className="ss" src={img} alt="" />
+      <p></p>
       <a target="_blank" href={live}>
         Live Site
       </a>

@@ -54,6 +54,36 @@ nav ul li a {
 }
 
 .ss {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+}
+
+#project {
+  border-radius: 20px;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  height: 70vh;
+}
+
+#project ul li a {
+  text-decoration: none;
+}
+
+#project ul {
+  list-style: none;
+}
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-half {
+  width: 50%;
+}
+
+.second-half {
+  width: 50%;
 }
