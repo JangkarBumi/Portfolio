@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Story from './components/Story';
@@ -12,7 +13,11 @@ const App = () => {
       <div id="project" style={{ backgroundColor: `magenta` }}>
         <div className="first-half">
           <h1>MerlinBook</h1>
-          <p>Bookstore CMS built using MERN stack</p>
+          <p>
+            Front End for Bookstore CMS Built with React Redux for the
+            front-end, and have two version of API built using two different
+            stack. Which is MERN stack and Ruby on Rails
+          </p>
           <ul className="stack">
             <li>
               <a
@@ -41,6 +46,15 @@ const App = () => {
                 View NodeJS code on Github
               </a>
             </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/JangkarBumi/merlinbook-rails"
+              >
+                View Ruby on Rails code on Github
+              </a>
+            </li>
           </ul>
         </div>
         <div className="second-half">
@@ -51,7 +65,7 @@ const App = () => {
       <div id="project" style={{ backgroundColor: `navy` }}>
         <div className="first-half">
           <h1>MerlinDoc</h1>
-          <p>mern</p>
+          <p>Medical Directory App built with MERN stack</p>
           <ul className="stack">
             <li>
               <a
@@ -81,7 +95,7 @@ const App = () => {
       <div id="project" style={{ backgroundColor: `grey` }}>
         <div className="first-half">
           <h1>MerlinFood</h1>
-          <p>mern</p>
+          <p>Concept website for Food App built with ReactJS</p>
           <ul className="stack">
             <li>
               <a
@@ -111,7 +125,7 @@ const App = () => {
       <div id="project" style={{ backgroundColor: `crimson` }}>
         <div className="first-half">
           <h1>MerlinDash</h1>
-          <p>mern</p>
+          <p>Concept Website for Push Notifications App</p>
           <ul className="stack">
             <li>
               <a
@@ -141,7 +155,7 @@ const App = () => {
       <div id="project" style={{ backgroundColor: `magenta` }}>
         <div className="first-half">
           <h1>MerlinShop</h1>
-          <p>mern</p>
+          <p>Concept Website for E-commerce App built with ReactJS</p>
           <ul className="stack">
             <li>
               <a
@@ -169,6 +183,7 @@ const App = () => {
       </div>
 
       <Contact></Contact>
+      <About></About>
     </div>
   );
 };

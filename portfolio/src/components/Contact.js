@@ -24,7 +24,7 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href="mailto:zehairawan@gmail.com">Email</a>
+          <a href="mailto:zehairawan@gmail.com">zehairawan@gmail.com</a>
         </li>
       </ul>
       <form name="contact" method="post">
@@ -44,6 +44,7 @@ const Contact = () => {
             Message: <textarea name="message"></textarea>
           </label>
         </p>
+        <div data-netlify-recaptcha="true"></div>
         <p>
           <button type="submit">Send</button>
         </p>
