@@ -24,10 +24,15 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href="mailto:zehairawan@gmail.com">zehairawan@gmail.com</a>
+          <a href="mailto:zehairawan@gmail.com">ZehaIrawan@gmail.com</a>
         </li>
       </ul>
-      <form name="contact" method="post">
+      <form
+        name="contact"
+        method="post"
+        data-netlify-recaptcha="true"
+        data-netlify="true"
+      >
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>

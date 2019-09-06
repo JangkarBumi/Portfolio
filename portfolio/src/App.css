@@ -101,3 +101,10 @@ nav ul li a {
 #contact ul li a {
   text-decoration: none;
 }
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-color: tomato;
+}
