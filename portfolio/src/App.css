@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit:300,600');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f6f9fc;
+  font-family: 'Niramit', sans-serif;
+  font-weight: 400;
+}
 nav {
   height: 100px;
   background-color: #fff;
@@ -11,6 +18,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
+  background-image: linear-gradient(299deg, #736dff, #a97fff);
 }
 
 nav ul {
@@ -29,10 +37,9 @@ nav ul li a {
 
 #project {
   height: 40vh;
-  color: #fff;
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 #contact {
@@ -46,18 +53,17 @@ nav ul li a {
 
 #story {
   margin-top: 120px;
-  color: #fff;
-  background-color: navajowhite;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
   height: 200px;
+  border: 1px solid grey;
+  background-image: linear-gradient(299deg, #736dff, #a97fff);
 }
 
 .ss {
   width: 100%;
   height: 100%;
-  /* padding: 5%; */
   border: 10px solid black;
 }
 
@@ -68,6 +74,8 @@ nav ul li a {
   justify-content: space-between;
   list-style: none;
   height: 70vh;
+  background-image: linear-gradient(299deg, #736dff, #a97fff);
+  border: 1px solid grey;
 }
 
 #project ul li a {
@@ -80,22 +88,29 @@ nav ul li a {
 .stack {
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .first-half {
   width: 50%;
+  padding: 60px;
 }
 
 .second-half {
   width: 50%;
+  height: 100%;
 }
 
 #contact ul {
   display: flex;
   justify-content: space-around;
   height: 20vh;
-  background-color: tomato;
   align-items: center;
+}
+
+#contact h1 {
+  text-align: center;
 }
 
 #contact ul li a {
@@ -105,6 +120,41 @@ nav ul li a {
 form {
   margin: 0 auto;
   width: 400px;
-  height: 400px;
-  background-color: tomato;
+  height: 300px;
+  background-image: linear-gradient(299deg, #736dff, #a97fff);
+  padding: 20px;
+}
+
+.form-name,
+.form-email {
+  width: 100%;
+}
+
+.form-message {
+  width: 100%;
+  height: 160px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  height: 20vh;
+  line-height: 20vh;
+  border-top: 1px solid grey;
+}
+
+@media only screen and (max-width: 1024px) {
+  #project {
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .first-half {
+    padding: 0px;
+  }
 }

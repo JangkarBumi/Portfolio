@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Story from './components/Story';
 
@@ -10,7 +10,7 @@ const App = () => {
     <div className="App">
       <Navbar></Navbar>
       <Story></Story>
-      <div id="project" style={{ backgroundColor: `magenta` }}>
+      <div id="project">
         <div className="first-half">
           <h1>MerlinBook</h1>
           <p>
@@ -62,7 +62,7 @@ const App = () => {
         </div>
       </div>
 
-      <div id="project" style={{ backgroundColor: `navy` }}>
+      <div id="project">
         <div className="first-half">
           <h1>MerlinDoc</h1>
           <p>Medical Directory App built with MERN stack</p>
@@ -92,7 +92,7 @@ const App = () => {
         </div>
       </div>
 
-      <div id="project" style={{ backgroundColor: `grey` }}>
+      <div id="project">
         <div className="first-half">
           <h1>MerlinFood</h1>
           <p>Concept website for Food App built with ReactJS</p>
@@ -122,7 +122,7 @@ const App = () => {
         </div>
       </div>
 
-      <div id="project" style={{ backgroundColor: `crimson` }}>
+      <div id="project">
         <div className="first-half">
           <h1>MerlinDash</h1>
           <p>Concept Website for Push Notifications App</p>
@@ -147,12 +147,13 @@ const App = () => {
             </li>
           </ul>
         </div>
+
         <div className="second-half">
           <img className="ss" src="https://i.imgur.com/yNe1CkQ.png" alt="" />
         </div>
       </div>
 
-      <div id="project" style={{ backgroundColor: `magenta` }}>
+      <div id="project">
         <div className="first-half">
           <h1>MerlinShop</h1>
           <p>Concept Website for E-commerce App built with ReactJS</p>
@@ -183,7 +184,7 @@ const App = () => {
       </div>
 
       <Contact></Contact>
-      <About></About>
+      <Footer></Footer>
     </div>
   );
 };

@@ -5,6 +5,9 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
+          <img src="" alt="" />
+        </li>
+        <li>
           <a href="#project">Recent Projects</a>
         </li>
         <li>

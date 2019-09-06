@@ -34,19 +34,23 @@ const Contact = () => {
         data-netlify="true"
       >
         <input type="hidden" name="form-name" value="contact" />
-        <p>
+        <div className="form-group">
           <label>
-            Your Name: <input type="text" name="name" />
+            <p> Your Name: </p>
+            <input type="text" name="name" className="form-name" />
           </label>
-        </p>
+
+          <p>
+            <label>
+              <p> Your Email:</p>
+              <input type="email" name="email" className="form-email" />
+            </label>
+          </p>
+        </div>
         <p>
           <label>
-            Your Email: <input type="email" name="email" />
-          </label>
-        </p>
-        <p>
-          <label>
-            Message: <textarea name="message"></textarea>
+            <p> Message: </p>
+            <textarea name="message" className="form-message"></textarea>
           </label>
         </p>
         <div data-netlify-recaptcha="true"></div>
