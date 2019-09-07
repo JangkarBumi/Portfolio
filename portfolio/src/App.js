@@ -125,7 +125,7 @@ const App = () => {
       <div id="project">
         <div className="first-half">
           <h1>MerlinDash</h1>
-          <p>Concept Website for Push Notifications App</p>
+          <p>Concept Website for Push Notifications App built with ReactJS</p>
           <ul className="stack">
             <li>
               <a
@@ -149,7 +149,7 @@ const App = () => {
         </div>
 
         <div className="second-half">
-          <img className="ss" src="https://i.imgur.com/yNe1CkQ.png" alt="" />
+          <img className="ss" src="https://i.imgur.com/22YKS4U.png" alt="" />
         </div>
       </div>
 

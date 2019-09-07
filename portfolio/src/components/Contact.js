@@ -36,20 +36,20 @@ const Contact = () => {
         <input type="hidden" name="form-name" value="contact" />
         <div className="form-group">
           <label>
-            <p> Your Name: </p>
+             Your Name:
             <input type="text" name="name" className="form-name" />
           </label>
 
           <p>
             <label>
-              <p> Your Email:</p>
+              Your Email:
               <input type="email" name="email" className="form-email" />
             </label>
           </p>
         </div>
         <p>
           <label>
-            <p> Message: </p>
+            Message:
             <textarea name="message" className="form-message"></textarea>
           </label>
         </p>

@@ -12,7 +12,7 @@ body {
   font-weight: 400;
 }
 nav {
-  height: 100px;
+  height: 10vh;
   background-color: #fff;
   border-bottom: 1px solid black;
   position: fixed;
@@ -23,10 +23,11 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: space-around;
   list-style: none;
-  text-align: center;
-  line-height: 100px;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
 }
 
 nav ul li a {
@@ -35,11 +36,52 @@ nav ul li a {
   font-size: 30px;
 }
 
-#project {
-  height: 40vh;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 60px;
+.closed {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+  .closed {
+    display: none;
+  }
+
+  .open {
+    display: flex;
+  }
+
+  nav ul {
+    text-align: center;
+    margin-top: 10vh;
+    padding: 20px 0px 40px 0px;
+    flex-direction: column;
+    background-color: #a97fff;
+    border-bottom: 1px solid tomato;
+    height: 90vh;
+  }
+
+  nav ul li {
+    height: 20px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  nav ul li a:hover {
+    color: white;
+  }
 }
 
 #contact {
@@ -52,7 +94,9 @@ nav ul li a {
 }
 
 #story {
-  margin-top: 120px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 15vh;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -62,12 +106,16 @@ nav ul li a {
 }
 
 .ss {
-  width: 100%;
   height: 100%;
-  border: 10px solid black;
+  border: 10px solid #9573db;
+  width: 100%;
 }
 
 #project {
+  height: 40vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
   border-radius: 20px;
   padding: 2%;
   display: flex;
@@ -132,6 +180,7 @@ form {
 
 .form-message {
   width: 100%;
+
   height: 160px;
 }
 
@@ -152,9 +201,26 @@ footer {
   #project {
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 110vh;
   }
   .first-half {
     padding: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .second-half {
+    width: 90%;
+  }
+
+  .ss {
+    margin: 0 auto;
+    object-fit: contain;
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .ss {
+    max-width: 540px;
   }
 }

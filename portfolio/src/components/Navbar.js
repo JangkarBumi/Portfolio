@@ -1,19 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Navbar = () => {
+  const [open, isOpen] = useState(false);
+
+  const handleClick = () => {
+    open ? isOpen(false) : isOpen(true);
+  };
+
   return (
     <nav>
-      <ul>
-        <li>
-          <img src="" alt="" />
-        </li>
-        <li>
+      <div className="hamburger" onClick={handleClick}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
+      <ul className={('nav-links', open ? 'open' : 'closed')}>
+        <li onClick={handleClick}>
           <a href="#project">Recent Projects</a>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <a href="#contact">Contact Me</a>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -22,7 +30,7 @@ const Navbar = () => {
             Github
           </a>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <a
             target="_blank"
             rel="noopener noreferrer"
