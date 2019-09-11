@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Profile = () => {
   return (
@@ -12,7 +13,7 @@ const Profile = () => {
             rel="noopener noreferrer"
             href="https://github.com/JangkarBumi"
           >
-            Github
+            <FaGithub />
           </a>
         </li>
         <li>
@@ -21,11 +22,13 @@ const Profile = () => {
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/zehairawan/"
           >
-            LinkedIn
+            <FaLinkedin />
           </a>
         </li>
         <li>
-          <a href="mailto:zehairawan@gmail.com">ZehaIrawan@gmail.com</a>
+          <a href="mailto:zehairawan@gmail.com">
+            <FaEnvelope />
+          </a>
         </li>
       </ul>
     </div>

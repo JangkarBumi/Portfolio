@@ -23,7 +23,7 @@ const App = () => {
           rails={e.rails}
         ></Project>
       ))}
-      ;<Contact></Contact>
+      <Contact></Contact>
       <Footer></Footer>
     </Fragment>
   );

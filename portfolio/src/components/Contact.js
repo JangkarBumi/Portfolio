@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   return (
     <div className="contact">
-      Contact
+    <h3>Contact Me</h3>
       <form
         name="contact"
         method="post"
@@ -32,7 +32,7 @@ const Contact = () => {
         </p>
         <div data-netlify-recaptcha="true"></div>
         <p>
-          <button type="submit">Send</button>
+          <button className="submit" type="submit">Send</button>
         </p>
       </form>
     </div>
