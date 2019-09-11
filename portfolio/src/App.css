@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Niramit:300,600');
+/* @import url('https://fonts.googleapis.com/css?family=Niramit:300,600');
 
 * {
   margin: 0;
@@ -222,5 +222,62 @@ footer {
 @media only screen and (min-width: 1024px) {
   .ss {
     max-width: 540px;
+  }
+} */
+
+/* New*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.profile {
+  width: 100%;
+  height: 100vh;
+}
+
+.project {
+  /* height: 85vh; */
+  height: auto;
+  padding: 65px;
+}
+
+.contact {
+  height: 60vh;
+  background-color: #f4f3f3;
+  padding: 65px 65px 65px 100px;
+}
+
+.footer {
+  height: 10vh;
+  padding: 32px 65px 25px;
+  background-color: #222;
+  color: #fff;
+}
+
+@media only screen and (min-width: 900px) {
+  .profile {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 552px;
+    bottom: 0px;
+    z-index: 0;
+    width: 40%;
+    height: 100%;
+    padding: 75px 85px 50px;
+    background-color: #fafafa;
+  }
+
+  .project,
+  .contact,
+  .footer {
+    margin-left: 40%;
   }
 }

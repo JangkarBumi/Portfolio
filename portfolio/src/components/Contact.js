@@ -2,31 +2,8 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div id="contact">
-      <h1>Contact</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/JangkarBumi"
-          >
-            Github
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/zehairawan/"
-          >
-            LinkedIn
-          </a>
-        </li>
-        <li>
-          <a href="mailto:zehairawan@gmail.com">ZehaIrawan@gmail.com</a>
-        </li>
-      </ul>
+    <div className="contact">
+      Contact
       <form
         name="contact"
         method="post"
@@ -36,7 +13,7 @@ const Contact = () => {
         <input type="hidden" name="form-name" value="contact" />
         <div className="form-group">
           <label>
-             Your Name:
+            Your Name:
             <input type="text" name="name" className="form-name" />
           </label>
 
