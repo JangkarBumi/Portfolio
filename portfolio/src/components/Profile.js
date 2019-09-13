@@ -4,8 +4,20 @@ import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 const Profile = () => {
   return (
     <div className="profile">
-      <h1>Zeha Irawan</h1>
-      <p>I'm a full-stack web developer</p>
+      <h1 className="who">
+        REALIST.
+        <br />
+        IDEALIST.
+        <br />
+        INVOKER.
+        <br />& MENTOR.
+      </h1>
+      <p className="profile-copy">
+      Fullstack web developer, digital marketer & amateur philosopher who likes to ask an important question like why people still asking if batman can defeat superman.
+      <br/>
+      <br/>
+       Batman once took out the entire justice league alone.
+      </p>
       <ul>
         <li>
           <a
@@ -31,6 +43,9 @@ const Profile = () => {
           </a>
         </li>
       </ul>
+      <div className="hello">
+        <a href="#contact">Say Hello!</a>
+      </div>
     </div>
   );
 };

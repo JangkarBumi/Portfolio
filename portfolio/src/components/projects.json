@@ -1,8 +1,9 @@
 {
   "projects": [
     {
+      "id": ".001",
       "title": "MerlinBook",
-      "color": "linear-gradient(180deg, #b4ddbf, #b4ddbf)",
+      "color": "linear-gradient(180deg, #f4b93d, #f4b93d)",
       "img": "https://i.imgur.com/9v0Lvxu.png",
       "desc": "Front End for Bookstore CMS Built with React Redux for the front-end, and have two version of API built using two different    stack. Which is MERN stack and Ruby on Rails",
       "live": "https://merlinbook.zehairawan.com/",
@@ -11,8 +12,9 @@
       "rails": "https://github.com/JangkarBumi/merlinbook-rails"
     },
     {
+      "id": ".002",
       "title": "MerlinDoc",
-      "color": "linear-gradient(to left, #4ac29a, #bdfff3)",
+      "color": "linear-gradient(180deg, #005ba9, #005ba9)",
       "img": "https://i.imgur.com/cKrmCDe.png",
       "desc": "Medical Directory App built with MERN stack",
       "live": "https://merlindoc.zehairawan.com/",
@@ -21,6 +23,7 @@
       "rails": ""
     },
     {
+      "id": ".003",
       "title": "MerlinFood",
       "color": "linear-gradient(180deg, #b4ddbf, #b4ddbf)",
       "img": "https://i.imgur.com/amXvOWz.jpg",
@@ -31,8 +34,9 @@
       "rails": ""
     },
     {
+      "id": ".004",
       "title": "MerlinDash",
-      "color": "linear-gradient(180deg, #54e7c7, #54e7c7)",
+      "color": "linear-gradient( #4a4a4a, #4a4a4a)",
       "img": "https://i.imgur.com/yNe1CkQ.png",
       "desc": "Concept Website for Push Notifications App built with ReactJS",
       "live": "https://merlindash.zehairawan.com/",
@@ -41,8 +45,9 @@
       "rails": ""
     },
     {
+      "id": ".005",
       "title": "MerlinShop",
-      "color": "linear-gradient(180deg, #009ee2, #009ee2)",
+      "color": "linear-gradient(180deg, #54e7c7, #54e7c7)",
       "img": "https://i.imgur.com/nNMfM0j.png",
       "desc": "Concept Website for E-commerce App built with ReactJS",
       "live": "https://merlinshop.zehairawan.com/",

@@ -1,236 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css?family=Niramit:300,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,500,900');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-color: #f6f9fc;
-  font-family: 'Niramit', sans-serif;
-  font-weight: 400;
-}
-nav {
-  height: 10vh;
-  background-color: #fff;
-  border-bottom: 1px solid black;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background-image: linear-gradient(299deg, #736dff, #a97fff);
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  height: 100%;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: auto;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 30px;
-}
-
-.closed {
-  display: flex;
-}
-
-@media screen and (max-width: 768px) {
-  .line {
-    width: 30px;
-    height: 3px;
-    background: white;
-    margin: 5px;
-  }
-
-  .hamburger {
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
-    z-index: 2;
-  }
-  .closed {
-    display: none;
-  }
-
-  .open {
-    display: flex;
-  }
-
-  nav ul {
-    text-align: center;
-    margin-top: 10vh;
-    padding: 20px 0px 40px 0px;
-    flex-direction: column;
-    background-color: #a97fff;
-    border-bottom: 1px solid tomato;
-    height: 90vh;
-  }
-
-  nav ul li {
-    height: 20px;
-    margin: 10px 0px 0px 0px;
-  }
-
-  nav ul li a:hover {
-    color: white;
-  }
-}
-
-#contact {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#contact ul {
-  list-style: none;
-}
-
-#story {
-  border-radius: 20px;
-  text-align: center;
-  margin-top: 15vh;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  height: 200px;
-  border: 1px solid grey;
-  background-image: linear-gradient(299deg, #736dff, #a97fff);
-}
-
-.ss {
-  height: 100%;
-  border: 10px solid #9573db;
-  width: 100%;
-}
-
-#project {
-  height: 40vh;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 60px;
-  border-radius: 20px;
-  padding: 2%;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  height: 70vh;
-  background-image: linear-gradient(299deg, #736dff, #a97fff);
-  border: 1px solid grey;
-}
-
-#project ul li a {
-  text-decoration: none;
-}
-
-#project ul {
-  list-style: none;
-}
-.stack {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.first-half {
-  width: 50%;
-  padding: 60px;
-}
-
-.second-half {
-  width: 50%;
-  height: 100%;
-}
-
-#contact ul {
-  display: flex;
-  justify-content: space-around;
-  height: 20vh;
-  align-items: center;
-}
-
-#contact h1 {
-  text-align: center;
-}
-
-#contact ul li a {
-  text-decoration: none;
-}
-
-form {
-  margin: 0 auto;
-  width: 400px;
-  height: 300px;
-  background-image: linear-gradient(299deg, #736dff, #a97fff);
-  padding: 20px;
-}
-
-.form-name,
-.form-email {
-  width: 100%;
-}
-
-.form-message {
-  width: 100%;
-
-  height: 160px;
-}
-
-.form-group {
-  display: flex;
-  justify-content: space-between;
-}
-
-footer {
-  margin-top: 20px;
-  text-align: center;
-  height: 20vh;
-  line-height: 20vh;
-  border-top: 1px solid grey;
-}
-
-@media only screen and (max-width: 1024px) {
-  #project {
-    align-items: center;
-    flex-direction: column;
-    height: 110vh;
-  }
-  .first-half {
-    padding: 0px;
-    width: 100%;
-    text-align: center;
-  }
-  .second-half {
-    width: 90%;
-  }
-
-  .ss {
-    margin: 0 auto;
-    object-fit: contain;
-    border: none;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .ss {
-    max-width: 540px;
-  }
-} */
-
-/* New*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -243,6 +17,13 @@ img {
   height: 100vh;
   padding: 75px 85px 50px;
 }
+.profile-copy {
+  font: 'Raleway 100', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333;
+}
+
 .profile h1 {
   margin-bottom: 5vh;
 }
@@ -250,8 +31,47 @@ img {
 .profile ul {
   margin-top: 5vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   list-style: none;
+  flex-wrap: wrap;
+}
+
+.profile ul li:not(:last-child) {
+  margin-right: 5rem;
+}
+
+img {
+  width: 82%;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 9%;
+}
+
+.hello {
+  margin-top: 50px;
+}
+
+.hello a {
+  padding: 15px 65px;
+  border-radius: 100px;
+  background-color: #3b80fe;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font: 'Raleway 100', sans-serif;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.who {
+  font: 'Raleway 900', sans-serif;
+  font-weight: bold;
+  color: #4a4a4a;
+  font-size: 36px;
+  line-height: 42px;
+  opacity: 1;
 }
 
 svg {
@@ -261,8 +81,19 @@ svg {
   transition: 0.1s ease-in;
 }
 
-svg:hover {
+svg:hover,
+.svg:hover {
   color: #1ecebc;
+}
+
+.stack {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+  height: 30px;
 }
 
 .visit {
@@ -277,7 +108,6 @@ svg:hover {
   letter-spacing: 0.025em;
   text-decoration: none;
   transition: all 0.15s ease;
-  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
   font-size: 0.9em;
   font-weight: 600;
   background-color: #fff;
@@ -286,6 +116,7 @@ svg:hover {
 .project {
   height: auto;
   padding: 65px;
+  color: #fff;
 }
 
 .project ul {
@@ -307,6 +138,32 @@ svg:hover {
   margin-bottom: 2vh;
 }
 
+.work-number {
+  font: 'Raleway 100', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.sub-title {
+  font: 'Raleway 100', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 12p;
+  text-decoration: none;
+}
+
+.sub-title:hover{
+   color:#000;
+}
+
+.title {
+  font: 'Raleway 500', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .contact {
   height: auto;
   background-color: #f4f3f3;
@@ -321,11 +178,12 @@ svg:hover {
   height: 10vh;
   padding: 32px 65px 25px;
   background-color: #222;
-  color: #fff;
+  color: #999;
 }
 .footer p {
   line-height: 1vh;
   text-align: center;
+  font-size: 14px;
 }
 
 input[type='text'],

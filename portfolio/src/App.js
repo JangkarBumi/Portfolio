@@ -13,6 +13,7 @@ const App = () => {
       {projects.projects.map(e => (
         <Project
           key={e.title}
+          id={e.id}
           title={e.title}
           desc={e.desc}
           img={e.img}
