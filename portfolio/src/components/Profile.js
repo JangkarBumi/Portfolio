@@ -14,9 +14,6 @@ const Profile = () => {
       </h1>
       <p className="profile-copy">
       Fullstack web developer, digital marketer & amateur philosopher who likes to ask an important question like why people still asking if batman can defeat superman.
-      <br/>
-      <br/>
-       Batman once took out the entire justice league alone.
       </p>
       <ul>
         <li>
