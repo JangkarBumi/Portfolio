@@ -9,11 +9,11 @@ const Profile = () => {
         <br />
         IDEALIST.
         <br />
-        INVOKER.
+        DEVELOPER.
         <br />& MENTOR.
       </h1>
       <p className="profile-copy">
-      Fullstack web developer, digital marketer & amateur philosopher who likes to ask an important question like why people still asking if batman can defeat superman.
+      Fullstack web developer, digital marketer & amateur philosopher who likes to ask an important question like why are people still asking if batman can defeat superman.
       </p>
       <ul>
         <li>
