@@ -1,0 +1,25 @@
+
+{"legacy" :[
+  {
+  "id": ".002",
+  "title": "MerlinFood",
+  "color": "linear-gradient(180deg, #b4ddbf, #b4ddbf)",
+  "img": "https://i.imgur.com/amXvOWz.jpg",
+  "desc": "Concept website for Food App built with ReactJS",
+  "live": "https://merlinfood.zehairawan.com/",
+  "front": "https://github.com/JangkarBumi/MerlinFood",
+  "node": "",
+  "rails": ""
+},
+{
+  "id": ".004",
+  "title": "MerlinShop",
+  "color": "linear-gradient(180deg, #54e7c7, #54e7c7)",
+  "img": "https://i.imgur.com/nNMfM0j.png",
+  "desc": "Concept Website for E-commerce App built with ReactJS",
+  "live": "https://merlinshop.zehairawan.com/",
+  "front": "https://github.com/JangkarBumi/MerlinShop",
+  "node": "",
+  "rails": ""
+}
+]}

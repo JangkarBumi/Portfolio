@@ -10,21 +10,10 @@
       "front": "https://github.com/JangkarBumi/MerlinDash",
       "node": "",
       "rails": ""
-
     },
+
     {
       "id": ".002",
-      "title": "MerlinFood",
-      "color": "linear-gradient(180deg, #b4ddbf, #b4ddbf)",
-      "img": "https://i.imgur.com/amXvOWz.jpg",
-      "desc": "Concept website for Food App built with ReactJS",
-      "live": "https://merlinfood.zehairawan.com/",
-      "front": "https://github.com/JangkarBumi/MerlinFood",
-      "node": "",
-      "rails": ""
-    },
-    {
-      "id": ".003",
       "title": "MerlinDoc",
       "color": "linear-gradient(180deg, #005ba9, #005ba9)",
       "img": "https://i.imgur.com/cKrmCDe.png",
@@ -35,16 +24,15 @@
       "rails": ""
     },
     {
-      "id": ".004",
-      "title": "MerlinShop",
-      "color": "linear-gradient(180deg, #54e7c7, #54e7c7)",
-      "img": "https://i.imgur.com/nNMfM0j.png",
-      "desc": "Concept Website for E-commerce App built with ReactJS",
-      "live": "https://merlinshop.zehairawan.com/",
-      "front": "https://github.com/JangkarBumi/MerlinShop",
-      "node": "",
-      "rails": ""
+      "id": ".003",
+      "title": "MerlinBook",
+      "color": "linear-gradient(180deg, #f4b93d, #f4b93d)",
+      "img": "https://i.imgur.com/9v0Lvxu.png",
+      "desc": "Front End for Bookstore CMS Built with React Redux for the front-end, and have two version of API built using two different    stack. Which is MERN stack and Ruby on Rails",
+      "live": "https://merlinbook.zehairawan.com/",
+      "front": "https://github.com/JangkarBumi/MerlinBook/",
+      "node": "https://github.com/JangkarBumi/merlinbook-nodejs",
+      "rails": "https://github.com/JangkarBumi/merlinbook-rails"
     }
   ]
 }
-
