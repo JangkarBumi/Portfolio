@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaNodeJs, FaReact } from 'react-icons/fa';
+import { TiArrowForward } from 'react-icons/ti';
 const Project = ({ color, img, title, desc, live, front, node, rails, id }) => {
   const nodeBackend =
     node === '' ? (
@@ -200,7 +201,9 @@ const Project = ({ color, img, title, desc, live, front, node, rails, id }) => {
             rel="noopener noreferrer"
             href={live}
           >
-            <p>{title}</p>
+            <p>
+              {title} <TiArrowForward className="arrow" />
+            </p>
           </a>
         </div>
         <div style={{ float: 'right', marginTop: '10px' }}>

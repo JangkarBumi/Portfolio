@@ -153,8 +153,8 @@ svg:hover,
   text-decoration: none;
 }
 
-.sub-title:hover{
-   color:#000;
+.sub-title:hover {
+  color: #1ecebc;
 }
 
 .title {
@@ -211,6 +211,13 @@ textarea {
 
 .submit:hover {
   background-color: #4caf50;
+}
+
+.arrow {
+  margin-left: -10px;
+  margin-bottom: -5px;
+  color: #fff;
+  height: 25px;
 }
 
 @media only screen and (min-width: 900px) {
