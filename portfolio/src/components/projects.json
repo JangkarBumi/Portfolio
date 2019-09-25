@@ -16,7 +16,7 @@
       "id": ".002",
       "title": "MerlinDoc",
       "color": "linear-gradient(180deg, #005ba9, #005ba9)",
-      "img": "https://i.imgur.com/p6uFOFt.png",
+      "img": "https://i.imgur.com/h3CiCXH.png",
       "desc": "Medical Directory App built with MERN stack",
       "live": "https://merlindoc.zehairawan.com/",
       "front": "https://github.com/JangkarBumi/MerlinDoc",
@@ -31,8 +31,7 @@
       "desc": "Front End for Bookstore CMS Built with React Redux for the front-end, and have two version of API built using two different    stack. Which is MERN stack and Ruby on Rails",
       "live": "https://merlinbook.zehairawan.com/",
       "front": "https://github.com/JangkarBumi/MerlinBook/",
-      "node": "https://github.com/JangkarBumi/merlinbook-nodejs",
-      "rails": "https://github.com/JangkarBumi/merlinbook-rails"
+      "node": "https://github.com/JangkarBumi/merlinbook-nodejs"
     },
     {
       "id": ".004",
