@@ -6,7 +6,7 @@
       "color": "linear-gradient( #4a4a4a, #4a4a4a)",
       "img": "https://i.imgur.com/THWmjnF.jpg",
       "desc": "Concept Website for Push Notifications App built with ReactJS. Designed for the large screen.",
-      "live": "https://merlindash.zehairawan.com/",
+      "live": "https://merlindash.zehairawan.me/",
       "front": "https://github.com/JangkarBumi/MerlinDash",
       "node": "",
       "rails": ""
@@ -18,7 +18,7 @@
       "color": "linear-gradient(180deg, #005ba9, #005ba9)",
       "img": "https://i.imgur.com/h3CiCXH.png",
       "desc": "Medical Directory App built with MERN stack. User can search a list of doctors based on the chosen state. There is an autocomplete feature & redux store is persisted if user refresh their browser.",
-      "live": "https://merlindoc.zehairawan.com/",
+      "live": "https://merlindoc.zehairawan.me/",
       "front": "https://github.com/JangkarBumi/MerlinDoc",
       "node": "",
       "rails": ""
@@ -29,7 +29,7 @@
       "color": "linear-gradient(180deg, #f4b93d, #f4b93d)",
       "img": "https://i.imgur.com/TocUlkV.png",
       "desc": "Front-end for Bookstore CMS is built with React & Redux, and in the back-end there is a REST API built with Express & MongoDB. CRUD operations are completed.",
-      "live": "https://merlinbook.zehairawan.com/",
+      "live": "https://merlinbook.zehairawan.me/",
       "front": "https://github.com/JangkarBumi/MerlinBook/",
       "rails": "",
       "node": "https://github.com/JangkarBumi/merlinbook-nodejs"
