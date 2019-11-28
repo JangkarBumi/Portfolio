@@ -17,7 +17,7 @@
       "title": "MerlinStore Client",
       "color": "linear-gradient(180deg, #b4ddbf, #b4ddbf)",
       "img": "https://i.imgur.com/r36Jwi9.png",
-      "desc": "Front-end for MerlinStore Client is built with React & Redux, and in the back-end there is a REST API built with Express & MongoDB. CRUD operations are completed.",
+      "desc": "An ebook store app built with React & Redux, and in the back-end there is a REST API built with Express & MongoDB. User can add product to the cart, pay them with paypal then receive the download link. You can use the following test account. Email : test@gmail.com Password: 123456",
       "live": "https://merlinstore.zehairawan.me/",
       "front": "https://github.com/JangkarBumi/MelinStore-Client",
       "rails": "",
@@ -33,6 +33,27 @@
       "front": "https://github.com/JangkarBumi/MerlinDash",
       "node": "",
       "rails": ""
+    },
+    {
+      "id": ".004",
+      "title": "Battleship",
+      "color": "    linear-gradient(to right,#2f80ed,#56ccf2 )",
+      "img": "https://i.imgur.com/9P9rJFz.png",
+      "desc": "Battleship game built using Javascript, Webpack,HTML & CSS.",
+      "live": "https://jeton-th.github.io/battleship/",
+      "front": "https://github.com/jeton-th/battleship",
+      "node": "",
+      "rails": ""
+    },
+    {
+      "id": ".005",
+      "title": "MerlinBook",
+      "color": "linear-gradient(180deg, #f4b93d, #f4b93d)",
+      "img": "https://i.imgur.com/TocUlkV.png",
+      "desc": "Front End for Bookstore CMS Built with React Redux for the front-end, and have two version of API built using two different    stack. Which is MERN stack and Ruby on Rails.",
+      "live": "https://merlinbook.zehairawan.com/",
+      "front": "https://github.com/JangkarBumi/MerlinBook/",
+      "node": "https://github.com/JangkarBumi/merlinbook-nodejs"
     }
   ]
 }
