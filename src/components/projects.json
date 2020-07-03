@@ -2,26 +2,24 @@
   "projects": [
     {
       "id": ".001",
-      "title": "MerlinDoc",
+      "title": "Uila! Client",
       "color": "linear-gradient(180deg, #005ba9, #005ba9)",
-      "img": "https://i.imgur.com/h3CiCXH.png",
-      "desc": "Medical Directory App built with MERN stack. User can search a list of doctors based on the chosen state. There is an autocomplete feature & redux store is persisted if user refresh their browser.",
+      "img": "https://i.imgur.com/sTdIt70.png",
+      "desc": "Food delivery app built with ReactJS and mobile-first approach. Design by Saquib Shah on dribbble.",
       "live": "https://merlindoc.zehairawan.me/",
-      "front": "https://github.com/JangkarBumi/MerlinDoc",
+      "front": "https://github.com/JangkarBumi/Uila_Client",
       "node": "",
       "rails": ""
     },
 
     {
       "id": ".002",
-      "title": "MerlinStore Client",
+      "title": "Uila! Backend API",
       "color": "linear-gradient(180deg, #b4ddbf, #b4ddbf)",
-      "img": "https://i.imgur.com/r36Jwi9.png",
-      "desc": "An ebook store app built with React & Redux, and in the back-end there is a REST API built with Express & MongoDB. User can add product to the cart, pay them with paypal then receive the download link. You can use the following test account. Email : test@gmail.com Password: 123456",
+      "img": "https://i.imgur.com/tiAcqxc.png",
+      "desc": "Backend API for Uila! built with Ruby on Rails.",
       "live": "https://merlinstore.zehairawan.me/",
-      "front": "https://github.com/JangkarBumi/MelinStore-Client",
-      "rails": "",
-      "node": "https://github.com/JangkarBumi/MerlinStore-API-MERN"
+      "rails": "https://github.com/JangkarBumi/Uila_Backend"
     },
     {
       "id": ".003",
@@ -36,21 +34,10 @@
     },
     {
       "id": ".004",
-      "title": "Battleship",
-      "color": "    linear-gradient(to right,#2f80ed,#56ccf2 )",
-      "img": "https://i.imgur.com/9P9rJFz.png",
-      "desc": "Battleship game built using Javascript, Webpack,HTML & CSS.",
-      "live": "https://jeton-th.github.io/battleship/",
-      "front": "https://github.com/jeton-th/battleship",
-      "node": "",
-      "rails": ""
-    },
-    {
-      "id": ".005",
       "title": "MerlinBook",
       "color": "linear-gradient(180deg, #f4b93d, #f4b93d)",
       "img": "https://i.imgur.com/TocUlkV.png",
-      "desc": "Front End for Bookstore CMS Built with React Redux for the front-end, and have two version of API built using two different    stack. Which is MERN stack and Ruby on Rails.",
+      "desc": "Front End for Bookstore CMS Built with React Redux for the front-end, and NodeJS API",
       "live": "https://merlinbook.zehairawan.com/",
       "front": "https://github.com/JangkarBumi/MerlinBook/",
       "node": "https://github.com/JangkarBumi/merlinbook-nodejs"
