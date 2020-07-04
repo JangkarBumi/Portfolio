@@ -6,7 +6,7 @@
       "color": "linear-gradient(180deg, #005ba9, #005ba9)",
       "img": "https://i.imgur.com/sTdIt70.png",
       "desc": "Food delivery app built with ReactJS and mobile-first approach. Design by Saquib Shah on dribbble.",
-      "live": "https://merlindoc.zehairawan.me/",
+      "live": "https://uila.zehairawan.me/",
       "front": "https://github.com/JangkarBumi/Uila_Client",
       "node": "",
       "rails": ""
@@ -18,7 +18,8 @@
       "color": "linear-gradient(180deg, #b4ddbf, #b4ddbf)",
       "img": "https://i.imgur.com/tiAcqxc.png",
       "desc": "Backend API for Uila! built with Ruby on Rails.",
-      "live": "https://merlinstore.zehairawan.me/",
+      "node": "",
+      "live": "https://pure-cliffs-14252.herokuapp.com",
       "rails": "https://github.com/JangkarBumi/Uila_Backend"
     },
     {
@@ -38,7 +39,7 @@
       "color": "linear-gradient(180deg, #f4b93d, #f4b93d)",
       "img": "https://i.imgur.com/TocUlkV.png",
       "desc": "Front End for Bookstore CMS Built with React Redux for the front-end, and NodeJS API",
-      "live": "https://merlinbook.zehairawan.com/",
+      "live": "https://merlinbook.zehairawan.me",
       "front": "https://github.com/JangkarBumi/MerlinBook/",
       "node": "https://github.com/JangkarBumi/merlinbook-nodejs"
     }
