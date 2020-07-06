@@ -4,7 +4,7 @@ import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 const Profile = () => {
   return (
     <div className="profile">
-      <h1 className="who">
+      <h1 className="who title-animation">
         REALIST.
         <br />
         IDEALIST.
@@ -12,10 +12,12 @@ const Profile = () => {
         DEVELOPER.
         <br />& MENTOR.
       </h1>
-      <p className="profile-copy">
-      Fullstack web developer, digital marketer & amateur philosopher who likes to ask an important question like why are people still asking if batman can defeat superman.
+      <p className="profile-copy desc-animation">
+        Fullstack web developer, digital marketer & amateur philosopher who
+        likes to ask an important question like why are people still asking if
+        batman can defeat superman.
       </p>
-      <ul>
+      <ul className="button-animation">
         <li>
           <a
             target="_blank"
@@ -40,7 +42,7 @@ const Profile = () => {
           </a>
         </li>
       </ul>
-      <div className="hello">
+      <div className="hello desc-animation">
         <a href="#contact">Say Hello!</a>
       </div>
     </div>

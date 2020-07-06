@@ -15,13 +15,9 @@ const Project = ({ color, img, title, desc, live, front, node, rails, id }) => {
     rails === '' ? (
       ''
     ) : (
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href={rails}
-      >
+      <a target="_blank" rel="noopener noreferrer" href={rails}>
         <svg
-          className="svg"
+          className="svg logo"
           xmlns="http://www.w3.org/2000/svg"
           width="1.42222in"
           height="1.42222in"
@@ -190,11 +186,11 @@ const Project = ({ color, img, title, desc, live, front, node, rails, id }) => {
 
   return (
     <div className="project" style={{ backgroundImage: color }}>
-      <p className="work-number">{id}</p>
+      <p className="work-number number-animation">{id}</p>
 
       <img src={img} alt="" />
       <div className="stack">
-        <div>
+        <div className="number-animation">
           <a
             className="sub-title"
             target="_blank"
@@ -206,7 +202,7 @@ const Project = ({ color, img, title, desc, live, front, node, rails, id }) => {
             </p>
           </a>
         </div>
-        <div style={{ float: 'right', marginTop: '10px' }}>
+        <div>
           <a target="_blank" rel="noopener noreferrer" href={front}>
             {front ? <FaReact className="logo" /> : null}
           </a>
@@ -215,7 +211,7 @@ const Project = ({ color, img, title, desc, live, front, node, rails, id }) => {
         </div>
       </div>
 
-      <p className="title">{desc}</p>
+      <p className="title number-animation">{desc}</p>
     </div>
   );
 };
